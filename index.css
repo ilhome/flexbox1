@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  margin: 50px;
+}
+.left {
+  flex: 1;
+  background-color: coral;
+  margin-right: 20px;
+}
+.right {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* background-color: coral; */
+  height: 500px;
+}
+
+.right1 {
+  background-color: coral;
+  margin-bottom: 20px;
+  height: 100%;
+}
+.right2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  height: 100%;
+}
+.inner1 {
+  flex: 1;
+  margin-right: 20px;
+  background-color: coral;
+}
+.inner2 {
+  flex: 1;
+  background-color: coral;
+}
+.right3 {
+  background-color: coral;
+  height: 100%;
+}
